@@ -1,0 +1,219 @@
+body
+{
+    background-color: hsla(0, 65%, 51%, 0.226);
+    margin:0pt 0pt 0pt 0pt;
+    border-radius: 0pt;
+    background-image: url(images/bg.jpg);
+}   
+
+#logo
+{
+  height: 1vw;
+  margin-left: 2vw;
+  padding-top: .5vw;
+}
+#logo img
+{
+  width: 12vw;
+  height: 10vw;
+}
+
+#header
+{
+  height: 11vw;
+  background-color:black;
+  padding: 0vw 2vw;
+}
+#menu 
+{
+  float: right;
+  height: 5vw;
+  line-height: 3vw;
+  font-size: 1.5vw;
+}
+#menu a,#backtotop a
+{
+    color:black;
+    text-decoration:none;
+    margin: 0.3vw;
+    clear: left;
+    background-color:rgba(6, 240, 142, 0.938);
+    border-radius: 1vw;
+    padding: 0.3vw;
+    font-size:1.3vw;
+}
+
+#menu a:hover,#menu a:active,#backtotop a:hover
+{
+  background-color:rgb(56, 51, 51);
+  text-decoration:none;
+  margin: 0.3vw;
+  clear: left;
+  color:rgba(6, 240, 142, 0.938);
+  border-radius: 1vw;
+  padding: 0.3vw;
+  font-size:1.3vw;
+}
+
+#menu ul
+{
+  float: right;
+  padding: 3vw 0vw 1vw 43vw;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4
+{
+    text-transform: uppercase;
+    color: rgb(122, 31, 54);
+    font-size: 25px ;
+    font-family:initial;
+    word-spacing: 0.1cm;
+    letter-spacing: 0px;
+    padding: 0%;
+    text-decoration:none;
+    text-shadow: 1px 1px 1px rgb(248, 155, 15); 
+}
+h4:hover
+{
+  color: rgba(0, 0, 255, 0.801);
+}
+#intro
+{
+    font-size: 3vw;
+    color: rgb(143, 14, 76);
+    text-align: center;
+    line-height: 1.5cm;
+    text-decoration:none;
+    width:60vw;
+    text-shadow: 4px 4px 4px rgb(67, 87, 143);
+    border: 0pt solid rgba(216, 32, 32, 0.781);
+    border-radius: 8pt;
+    float:left;
+    padding-bottom: 0vw;
+    margin: 5% 0% 0% 0%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+
+p:first-child
+{
+    color: rgba(15, 95, 26, 0.788);
+    text-shadow: none;
+    text-align: justify;
+    margin-left: 55px;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#portfolio
+{
+    font-size: 2.6vw;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(15, 95, 26, 0.788);
+    text-shadow: none;
+    padding-left: 17vw;
+    text-align: center;
+    letter-spacing: 0.1vw;
+}
+#dp
+{
+    border: 0.5vw solid rgb(228, 55, 55) ;
+    margin: 5vw 3vw 0vw 3vw;
+    float:left;
+    background-color: rgb(12, 96, 129);
+    width: 23vw;
+    height: 27vw;
+}
+#about,#details,#project,#objective,#interest
+{
+    color: rgba(14, 28, 75, 0.952);
+    padding: 0vw 4vw 0vw 4vw;
+    font-weight: bold;
+    font-size:medium;
+    border: 1vw solid hsla(0, 65%, 51%, 0.637);
+    margin: 0.5vw;
+}
+#about p:hover,#details ul:hover,#project ul:hover,#objective ul:hover,#interest ul:hover
+{
+
+}
+#project a,#interest a
+{
+  color: rgb(39, 119, 184);
+}
+#namedp
+{
+  height: 32vw;
+  padding: 0vw 2vw 0vw 2vw;
+}
+.sm a{
+    display: inline-block;
+    font-size: 40px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color:rgb(106, 176, 76);
+    margin: 0 16px;
+    transition: .4s linear;
+    position: relative;
+  }
+  
+  .sm a::before, .sm a::after{
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: .4s linear;
+  }
+  
+  .sm a:hover
+  {
+    transform: scale(.8);
+  }
+  
+  .sm a:hover::before
+  {
+    border-left: 4px solid;
+    border-right: 4px solid;
+    transform: skewX(20deg);
+  }
+  
+  .sm a:hover::after
+  {
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    transform: skewY(-20deg);
+  }
+  .sm
+  {
+    text-align: center;
+    padding-top: 1.5vw;
+  }
+
+#backtotop a,#backtotop
+{
+  text-align: center;
+  text-decoration: none;
+  font-weight:bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 2vw;
+}
+#footer
+{
+  height: 5vw;
+  text-align: center;
+  background-color: rgb(19, 82, 133);
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 2vw;
+  font-weight:normal;
+  color: rgb(201, 235, 14);
+  text-decoration: none;
+}
