@@ -1,7 +1,7 @@
 body
 {
     background-color: hsla(0, 65%, 51%, 0.226);
-    margin:0pt 0pt 0pt 0pt;
+    margin:0vw;
     border-radius: 0pt;
     background-image: url(images/bg.jpg);
 }   
@@ -66,32 +66,31 @@ h4
 {
     text-transform: uppercase;
     color: rgb(122, 31, 54);
-    font-size: 25px ;
+    font-size:2vw; 
+    clear: both;
     font-family:initial;
     word-spacing: 0.1cm;
-    letter-spacing: 0px;
-    padding: 0%;
     text-decoration:none;
     text-shadow: 1px 1px 1px rgb(248, 155, 15); 
 }
+
 h4:hover
 {
   color: rgba(0, 0, 255, 0.801);
+  
 }
 #intro
 {
     font-size: 3vw;
     color: rgb(143, 14, 76);
     text-align: center;
-    line-height: 1.5cm;
+    line-height: 6vw;
     text-decoration:none;
     width:60vw;
     text-shadow: 4px 4px 4px rgb(67, 87, 143);
-    border: 0pt solid rgba(216, 32, 32, 0.781);
-    border-radius: 8pt;
     float:left;
     padding-bottom: 0vw;
-    margin: 5% 0% 0% 0%;
+    margin-top:3vw ;
     letter-spacing: 1px;
     word-spacing: 1px;
     font-weight: bold;
@@ -131,13 +130,9 @@ p:first-child
     color: rgba(14, 28, 75, 0.952);
     padding: 0vw 4vw 0vw 4vw;
     font-weight: bold;
-    font-size:medium;
+    font-size:1.5vw;
     border: 1vw solid hsla(0, 65%, 51%, 0.637);
     margin: 0.5vw;
-}
-#about p:hover,#details ul:hover,#project ul:hover,#objective ul:hover,#interest ul:hover
-{
-
 }
 #project a,#interest a
 {
