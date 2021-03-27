@@ -3,7 +3,6 @@ body
     background-color: hsla(0, 65%, 51%, 0.226);
     margin:0vw;
     border-radius: 0pt;
-    background:url(images/bg.jpg) no-repeat  100% 92.5%;
 }   
 
 #logo
@@ -37,7 +36,7 @@ body
     text-decoration:none;
     margin: 0.3vw;
     clear: left;
-    background-color:rgba(6, 240, 142, 0.938);
+    background-color:rgba(6, 240, 142, 0.945);
     border-radius: 1vw;
     padding: 0.3vw;
     font-size:1.3vw;
@@ -120,7 +119,7 @@ p:first-child
     border: 0.5vw solid rgb(228, 55, 55) ;
     margin: 3vw 3vw 0vw 3vw;
     float:left;
-    background-color: rgb(12, 96, 129);
+    background-color: rgba(6, 240, 142, 0.938);
     width: 23vw;
     height: 28vw;
 }
@@ -208,7 +207,7 @@ p:first-child
   color:rgba(6, 240, 142, 0.938);
   border-radius: 1vw;
   padding: 0.3vw;
-  font-size:1.7vw;
+  font-size:1.8vw;
 }
 #footer
 {
