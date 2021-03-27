@@ -3,7 +3,7 @@ body
     background-color: hsla(0, 65%, 51%, 0.226);
     margin:0vw;
     border-radius: 0pt;
-    background:url(images/bg.jpg) no-repeat;
+    background:url(images/bg.jpg) no-repeat  100% 92.5%;
 }   
 
 #logo
@@ -122,7 +122,7 @@ p:first-child
     float:left;
     background-color: rgb(12, 96, 129);
     width: 23vw;
-    height: 30vw;
+    height: 28vw;
 }
 #about,#details,#project,#objective,#interest
 {
