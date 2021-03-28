@@ -1,6 +1,6 @@
 body
 {
-    background-color: hsla(0, 65%, 51%, 0.226);
+    background-color: hsla(0, 65%, 51%, 0.123);
     margin:0vw;
     border-radius: 0pt;
 }   
@@ -20,7 +20,7 @@ body
 #header
 {
   height: 11vw;
-  background-color:black;
+  background-color:rgba(0, 0, 0, 0.973);
   padding: 0vw 2vw;
 }
 #menu 
@@ -60,7 +60,20 @@ body
   padding: 3vw 0vw 1vw 43vw;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+#namedp
+{
+  height: 35vw;
+  padding: 0vw 2vw 0vw 2vw;
+}
+#greet
+{
+  margin: 3vw 0vw 0vw 6vw;
+  font-size: 3vw;
+  text-align: left;
+  color: rgb(9, 82, 165);
+  text-shadow: 1px 1px 1px rgb(28, 189, 230);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 h4
 {
     text-transform: uppercase;
@@ -83,19 +96,19 @@ h4:hover
     font-size: 3vw;
     color: rgb(143, 14, 76);
     text-align: center;
-    line-height: 6vw;
+    line-height: 4vw;
     text-decoration:none;
     width:60vw;
     text-shadow: 4px 4px 4px rgb(67, 87, 143);
     float:left;
     padding-bottom: 0vw;
-    margin-top:1vw ;
+    margin-top:0vw ;
     letter-spacing: 1px;
     word-spacing: 1px;
     font-weight: bold;
 }
 
-p:first-child
+#salut
 {
     color: rgba(15, 95, 26, 0.788);
     text-shadow: none;
@@ -117,7 +130,7 @@ p:first-child
 #dp
 {
     border: 0.5vw solid rgb(228, 55, 55) ;
-    margin: 3vw 3vw 0vw 3vw;
+    margin: 2vw 3vw 0vw 3vw;
     float:left;
     background-color: rgba(6, 240, 142, 0.938);
     width: 23vw;
@@ -136,11 +149,7 @@ p:first-child
 {
   color: rgb(39, 119, 184);
 }
-#namedp
-{
-  height: 32vw;
-  padding: 0vw 2vw 0vw 2vw;
-}
+
 .sm a{
     display: inline-block;
     font-size: 4vw;
@@ -191,7 +200,7 @@ p:first-child
 
 #backtotop a,#backtotop
 {
-  text-align: center;
+  text-align:center;
   text-decoration: none;
   font-weight:bolder;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -202,11 +211,9 @@ p:first-child
 {
   background-color:rgb(56, 51, 51);
   text-decoration:none;
-  margin: 0.3vw;
   clear: left;
   color:rgba(6, 240, 142, 0.938);
   border-radius: 1vw;
-  padding: 0.3vw;
   font-size:1.8vw;
 }
 #footer
@@ -215,7 +222,6 @@ p:first-child
   text-align: center;
   background-color: rgb(19, 82, 133);
   padding-top: 2vw;
-  padding-bottom: 1vw;
   padding-bottom: 2vw;
   font-family:'Times New Roman', Times, serif;
   font-size: 2vw;
