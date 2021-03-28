@@ -68,8 +68,9 @@ body
 #greet
 {
   margin: 3vw 0vw 0vw 6vw;
-  font-size: 3vw;
-  text-align: left;
+  font-size: 4vw;
+  text-align: center;
+  border: 0.4vw solid cadetblue;
   color: rgb(9, 82, 165);
   text-shadow: 1px 1px 1px rgb(28, 189, 230);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
