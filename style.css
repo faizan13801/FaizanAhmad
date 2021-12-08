@@ -61,7 +61,6 @@ header{
     background:#222;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     z-index: 1000;
     flex-flow: column;
     padding:8rem 2rem;
@@ -73,7 +72,7 @@ header .logo{
     color:#fff;
     font-size: 3rem;
     font-weight: bolder;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
@@ -685,15 +684,15 @@ header .follow a:hover{
     }
 
     header{
-        width: 100%;
+        width: 80%;
     }
 
     .experience .box-container .box{
         padding-right: 0;
     }
 
-    header .navbar{
-        padding-top: 0;
+    header .logo{
+        margin-bottom: 2rem;
     }
 
     header .navbar a{
@@ -701,6 +700,10 @@ header .follow a:hover{
         font-size: 2.5rem;
         color:#fff;
         margin:1.5rem 0;
+    }
+
+    header .follow{
+        margin-top: 7rem;
     }
     
 }
