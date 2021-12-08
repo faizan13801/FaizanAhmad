@@ -36,3 +36,16 @@ document.querySelectorAll('a').forEach(links =>{
 
 });
 
+
+var text = ["Developer","Programmer","Freelancer"];
+var counter = 0;
+var elem = document.getElementById("toggle");
+var inst = setInterval(change, 2000);
+elem.style.color="#f05045";
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+  }
+}

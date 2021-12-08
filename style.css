@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Fuzzy+Bubbles:wght@700&family=Gwendolyn:wght@700&family=Josefin+Sans&family=Libre+Baskerville&family=Lobster&family=Montserrat:wght@600&family=Signika+Negative:wght@300&family=Smooch&display=swap');
 
 :root{
     --main-color:#f05045;
 }
 
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
     transition: all .2s linear;
     line-height: 1.5;
 }
@@ -35,12 +34,10 @@ section{
     font-size: 4rem;
     padding-bottom: 1rem;
     color:#111;
-    text-transform: uppercase;
 }
 
 .heading span{
     color:var(--main-color);
-    text-transform: uppercase;
 }
 
 .btn{
@@ -73,22 +70,23 @@ header{
 }
 
 header .logo{
-    text-transform: uppercase;
     color:#fff;
     font-size: 3rem;
     font-weight: bolder;
+    margin-bottom: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
 header .logo span{
-    text-transform: uppercase;
     color:var(--main-color);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
 header .navbar a{
     display: block;
     font-size: 2rem;
     color:#fff;
-    margin:2rem 0;
+    margin:1.5rem 0;
 }
 
 header .navbar a:hover{
@@ -101,7 +99,7 @@ header .follow{
 }
 
 header .follow a{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color:#fff;
     margin:0 .7rem;
     padding: 0 .3rem;
@@ -172,6 +170,7 @@ header .follow a:hover{
 .home .image img{
     width:90%;
     padding-left: 4rem;
+    border-radius: 40%;
 }
 
 .home .content{
@@ -184,14 +183,15 @@ header .follow a:hover{
 }
 
 .home .content h3{
-    font-size: 4.5rem;
+    font-size: 4rem;
     color:#111;
-    text-transform: uppercase;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
 .home .content h3 span{
     color:var(--main-color);
-    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
 }
 
 .home .content .info{
@@ -207,7 +207,7 @@ header .follow a:hover{
 }
 
 .about{
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .about .row-1{
@@ -215,6 +215,7 @@ header .follow a:hover{
     flex-wrap: wrap;
     gap:1.5rem;
     padding-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .about .row-1 .image{
@@ -225,13 +226,11 @@ header .follow a:hover{
     height: 100%;
     width:100%;
     object-fit: cover;
-    border:1rem solid #fff;
-    border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
 .about .row-1 .content{
     flex:1 1 50rem;
+
 }
 
 .about .row-1 .content h3{
@@ -241,12 +240,16 @@ header .follow a:hover{
 
 .about .row-1 .content p{
     color:#666;
-    font-size: 1.7rem;
+    font-size: 15px;
     padding:.5rem 0;
 }
 
 #email{
     text-transform: lowercase;
+}
+
+#email span{
+    text-transform: none;
 }
 
 .about .row-1 .content .box-container{
@@ -316,19 +319,19 @@ header .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(4) .bar span{
-    width:70%;
+    width:80%;
 }
 
 .about .row-2 .skills .progress:nth-child(5) .bar span{
-    width:50%;
+    width:30%;
 }
 
 .about .row-2 .skills .progress:nth-child(6) .bar span{
-    width:60%;
+    width:80%;
 }
 
 .about .row-2 .skills .progress:nth-child(7) .bar span{
-    width:50%;
+    width:60%;
 }
 
 .about .row-2 .skills .progress:nth-child(8) .bar span{
@@ -336,12 +339,11 @@ header .follow a:hover{
 }
 
 .about .row-2 .box-container{
-    flex:1 1 40rem;
+    flex:1 1 30rem;
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
     padding-top: 1.5rem;
-    padding-left: 2rem;
 }
 
 .about .row-2 .box-container .box{
@@ -459,6 +461,12 @@ header .follow a:hover{
     gap:1.5rem;
 }
 
+.portfolio .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
 .portfolio .box-container .box{
     flex:1 1 30rem;
     height:25rem;
@@ -481,26 +489,26 @@ header .follow a:hover{
 
 .portfolio .box-container .box:hover img{
     height:75%;
-    width:75%;
+    width:80%;
 }
 
 .portfolio .box-container .box h3{
     position: absolute;
-    left:0.5rem;
-    font-size: 20px;
+    bottom:1rem; left:1rem;
+    font-size: 1.5rem;
     color:#333;
     text-transform: uppercase;
 }
 
 .portfolio .box-container .box .icons{
     position: absolute;
-    top:7rem; right:2rem;
+    top:1rem; right:1rem;
 }
 
 .portfolio .box-container .box .icons a{
     display: block;
     height:4rem;
-    width:6rem;
+    width:4rem;
     border-radius: .5rem;
     background: #eee;
     color:#333;
@@ -580,7 +588,6 @@ header .follow a:hover{
     width: 100%;
     border-bottom: .1rem solid #333;
     color:#333;
-    text-transform: none;
     font-size: 1.7rem;
     padding:1rem 0;
     margin:1rem 0;
@@ -589,11 +596,6 @@ header .follow a:hover{
 .contact .row form .box:focus,
 .contact .row form textarea:focus{
     border-color: var(--main-color);
-}
-
-.contact .row form .box::placeholder,
-.contact .row form textarea::placeholder{
-    text-transform: capitalize;
 }
 
 .contact .row form textarea{
@@ -663,21 +665,42 @@ header .follow a:hover{
     .cursor-2{
         display: none;
     }
+    header .navbar a{
+        display: block;
+        font-size: 2.5rem;
+        color:#fff;
+        margin:1.5rem 0;
+    }
+    .portfolio .box-container .box:hover img{
+        height:75%;
+        width:80%;
+    }
 
 }
 
 @media (max-width:450px){
 
     html{
-        font-size: 50%;
+        font-size: 47%;
     }
 
     header{
-        width:100%;
+        width: 100%;
     }
 
     .experience .box-container .box{
         padding-right: 0;
     }
 
+    header .navbar{
+        padding-top: 0;
+    }
+
+    header .navbar a{
+        display: block;
+        font-size: 2.5rem;
+        color:#fff;
+        margin:1.5rem 0;
+    }
+    
 }
