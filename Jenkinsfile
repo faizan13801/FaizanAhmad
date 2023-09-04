@@ -20,7 +20,6 @@ pipeline {
                 script {
                     // Create a directory to store the Render CLI within the workspace
                     def renderCliDir = "${WORKSPACE}/render"
-                    sh "mkdir -p ${renderCliDir}"
                     
                     // Download the Render CLI to the workspace directory
                     sh "curl -o ${renderCliDir}/render https://render.com/cli/latest/linux/render"
