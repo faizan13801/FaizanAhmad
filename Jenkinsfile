@@ -18,14 +18,11 @@ pipeline {
             steps {
                 // Install Render CLI within the Jenkins workspace
                 script {
-                    // Create a directory to store the Render CLI within the workspace
-                    def renderCliDir = "${WORKSPACE}/render"
-                    
                     // Download the Render CLI to the workspace directory
-                    sh "curl -o ${renderCliDir}/render https://render.com/cli/latest/linux/render"
+                    sh "curl -o ${WORKSPACE}/render https://render.com/cli/latest/linux/render"
                     
                     // Make the Render CLI executable
-                    sh "chmod +x ${renderCliDir}/render"
+                    sh "chmod +x ${WORKSPACE}/render"
                 }
                 
                 // Log in to Render using environment variables
